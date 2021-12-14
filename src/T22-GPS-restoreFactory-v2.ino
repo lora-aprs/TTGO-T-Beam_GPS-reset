@@ -22,6 +22,10 @@ requires the axp20x library that can be found  // AXP192 for T-beam; AXP202 for 
 https://github.com/lewisxhe/AXP202X_Library
 **************************************************************************/
 
+// Select your board version
+//#define T_BEAM_V07  // AKA Rev0 (first board released)
+#define T_BEAM_V10  // AKA Rev1 for board versions T-beam_V1.0 and V1.1 (second board released)
+
 #undef GPS_RX_PIN
 #undef GPS_TX_PIN
 
